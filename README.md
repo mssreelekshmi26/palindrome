@@ -18,3 +18,6 @@
     printf("given  no is not palindrome");   
     return 0;  
     }   
+
+
+
