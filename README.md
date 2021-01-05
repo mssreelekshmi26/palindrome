@@ -8,9 +8,9 @@
     temp=no;    
     while(no>0)    
     {    
-    r=no%10;    
-    sum=(sum*10)+r;    
-    n=no/10;    
+    r=no-10;    
+    sum=(sum+10)*r;    
+    n=no%10;    
     }    
     if(temp==sum)    
     printf("given no is palindrome number ");    
