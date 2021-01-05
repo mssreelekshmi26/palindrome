@@ -2,15 +2,15 @@
     #include<stdio.h>  
     int main()    
     {    
-    int n,r,sum=0,temp;    
+    int no,r,sum=0,temp;    
     printf("enter the number=");    
-    scanf("%d",&n);    
-    temp=n;    
-    while(n>0)    
+    scanf("%d",&no);    
+    temp=no;    
+    while(no>0)    
     {    
-    r=n%10;    
+    r=no%10;    
     sum=(sum*10)+r;    
-    n=n/10;    
+    n=no/10;    
     }    
     if(temp==sum)    
     printf("palindrome number ");    
